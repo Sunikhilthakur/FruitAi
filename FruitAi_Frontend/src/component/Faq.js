@@ -43,7 +43,7 @@ const Faq = () => {
   useEffect(() => {
     const fetchFaqs = async () => {
       try {
-        const response = await axios.get("https://fruitaibackend-mpu0.onrender.com/api/faqs/get");
+        const response = await axios.get("https://fruitai-0xpc.onrender.com");
         setFaqs(response.data);
       } catch (error) {
         console.error("Error fetching FAQs", error);
